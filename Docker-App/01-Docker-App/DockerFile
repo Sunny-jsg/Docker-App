@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Clone the Git repository into the container
 RUN git clone https://github.com/Sunny-jsg/Docker-App.git .
- .
+ 
 
 # Build the application (skip tests for faster build)
 RUN mvn clean package -DskipTests
